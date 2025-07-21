@@ -1,0 +1,25 @@
+{
+  "name": "hardik-first-pkg",
+  "version": "1.0.0",
+  "description": "A simple String utility package",
+  "keywords": [
+    "string",
+    "utils",
+    "javascript"
+  ],
+  "homepage": "https://github.com/Hardik-504/Mern_Stack_A1",
+  "bugs": {
+    "url": "https://github.com/Hardik-504/Mern_Stack_A1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hardik-504/Mern_Stack_A1.git"
+  },
+  "license": "MIT",
+  "author": "Hardik Sachdev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

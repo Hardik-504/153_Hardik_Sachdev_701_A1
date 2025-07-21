@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <h1>Message from Server:</h1>
+  <div id="msg">Loading...</div>
+
+  <script>
+    fetch('http://localhost:8000/q1.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('msg').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        document.getElementById('msg').innerText = 'Failed to load message.';
+      });
+  </script>
+</body>
+</html>
